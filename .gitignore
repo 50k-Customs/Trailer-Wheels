@@ -1,5 +1,6 @@
 *.blend
 *.blend1
 *.blend2
+*.bak
 /backup/*
 */def/*
