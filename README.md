@@ -6,7 +6,7 @@ This is not a mod, thus this models shall rather be included in one, properly de
 
 Basically you have to:
 1. Download this repository: [download](../../archive/master.zip)
-2. Extract contents of folder **base_trailer_wheels** inside your mod (nothing should collide)
+2. Extract contents of folder "**base_trailer_wheels**" inside your mod (nothing should collide with your mod files, otherwise you already similar wheels in your mod. However I believe that you know what you are doing :))
 3. Do SII configuration file for trailer wheel and define path to desired trailer wheel from the list of [Available Wheels](#Available-Wheels)
 4. Use configured wheel SII in your trailer chassis definitions
 5. Convert & pack your mod
