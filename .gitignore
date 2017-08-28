@@ -2,4 +2,4 @@
 *.blend1
 *.blend2
 /backup/*
-/def/*
+*/def/*
