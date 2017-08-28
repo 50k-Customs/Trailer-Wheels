@@ -1,0 +1,183 @@
+# Look Names:
+#	default
+#
+# Variant Names:
+#	left
+#	right
+#
+Header {
+    FormatVersion: 1
+    Source: "Blender 2.78.0 (hash: e8299c8), SCS Blender Tools: 1.9.54925f1"
+    Type: "Trait"
+    Name: "50k_abass_rwheel"
+}
+Global {
+    LookCount: 1
+    VariantCount: 2
+    PartCount: 2
+    MaterialCount: 4
+}
+Look {
+    Name: "default"
+    Material {
+        Alias: "mat_0005"
+        Effect: "eut2.shadowonly"
+        Flags: 0
+        AttributeCount: 1
+        TextureCount: 0
+        Attribute {
+            Format: FLOAT
+            Tag: "shadow_bias"
+            Value: ( 0.0 )
+        }
+    }
+    Material {
+        Alias: "mat_0000"
+        Effect: "eut2.fakeshadow"
+        Flags: 0
+        AttributeCount: 1
+        TextureCount: 0
+        Attribute {
+            Format: FLOAT
+            Tag: "shadow_bias"
+            Value: ( 0.0 )
+        }
+    }
+    Material {
+        Alias: "rim"
+        Effect: "eut2.dif.spec.add.env.tsnmap"
+        Flags: 0
+        AttributeCount: 7
+        TextureCount: 3
+        Attribute {
+            Format: FLOAT3
+            Tag: "diffuse"
+            Value: ( 1.0 1.0 1.0 )
+        }
+        Attribute {
+            Format: FLOAT3
+            Tag: "specular"
+            Value: ( 1.1230000257492065 1.1230000257492065 1.1230000257492065 )
+        }
+        Attribute {
+            Format: FLOAT
+            Tag: "shininess"
+            Value: ( 35.0 )
+        }
+        Attribute {
+            Format: FLOAT
+            Tag: "add_ambient"
+            Value: ( 0.0 )
+        }
+        Attribute {
+            Format: FLOAT
+            Tag: "reflection"
+            Value: ( 0.0 )
+        }
+        Attribute {
+            Format: FLOAT3
+            Tag: "env_factor"
+            Value: ( 0.4769010841846466 0.4769010841846466 0.4769010841846466 )
+        }
+        Attribute {
+            Format: FLOAT2
+            Tag: "fresnel"
+            Value: ( 1.0 1.0 )
+        }
+        Texture {
+            Tag: "texture[0]:texture_base"
+            Value: "/vehicle/wheel/50k_abass_maxion_offset_103/rim"
+        }
+        Texture {
+            Tag: "texture[1]:texture_reflection"
+            Value: "/material/environment/vehicle_reflection"
+        }
+        Texture {
+            Tag: "texture[2]:texture_nmap"
+            Value: "/vehicle/wheel/50k_abass_maxion_offset_103/rim_n"
+        }
+    }
+    Material {
+        Alias: "tyre"
+        Effect: "eut2.dif.spec.tsnmap"
+        Flags: 0
+        AttributeCount: 5
+        TextureCount: 2
+        Attribute {
+            Format: FLOAT3
+            Tag: "diffuse"
+            Value: ( 1.0 1.0 1.0 )
+        }
+        Attribute {
+            Format: FLOAT3
+            Tag: "specular"
+            Value: ( 0.30000001192092896 0.30000001192092896 0.30000001192092896 )
+        }
+        Attribute {
+            Format: FLOAT
+            Tag: "shininess"
+            Value: ( 20.0 )
+        }
+        Attribute {
+            Format: FLOAT
+            Tag: "add_ambient"
+            Value: ( 0.25 )
+        }
+        Attribute {
+            Format: FLOAT
+            Tag: "reflection"
+            Value: ( 0.0 )
+        }
+        Texture {
+            Tag: "texture[0]:texture_base"
+            Value: "/vehicle/wheel/50k_abass_maxion_offset_103/tyre"
+        }
+        Texture {
+            Tag: "texture[1]:texture_nmap"
+            Value: "/vehicle/wheel/50k_abass_maxion_offset_103/tyre_n"
+        }
+    }
+}
+Variant {
+    Name: "left"
+    Part {
+        Name: "l"
+        AttributeCount: 1
+        Attribute {
+            Format: INT
+            Tag: "visible"
+            Value: ( 1 )
+        }
+    }
+    Part {
+        Name: "r"
+        AttributeCount: 1
+        Attribute {
+            Format: INT
+            Tag: "visible"
+            Value: ( 0 )
+        }
+    }
+}
+Variant {
+    Name: "right"
+    Part {
+        Name: "l"
+        AttributeCount: 1
+        Attribute {
+            Format: INT
+            Tag: "visible"
+            Value: ( 0 )
+        }
+    }
+    Part {
+        Name: "r"
+        AttributeCount: 1
+        Attribute {
+            Format: INT
+            Tag: "visible"
+            Value: ( 1 )
+        }
+    }
+}
+
