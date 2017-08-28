@@ -4,7 +4,7 @@ Is a repository of various trailer wheel models saved in middle format (PIX) rea
 ## Description
 This is not a mod, thus this models shall rather be included in one, properly defined in the definition folder and then used by trailer chassis definition file. After that everything shall be converted with SCS Conversion Tools and packed into a ZIP to be used as a mod.
 
-**WARNING: Always include [credits](#credits) written below in your README or in release info, if you are releasing your trailer mod to public.**
+**WARNING: Always include [credits written below](#credits) in your README or in release info, if you are releasing your trailer mod to public.**
 
 Basically you have to:
 1. Download this repository: [download](../../archive/master.zip)
