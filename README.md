@@ -16,7 +16,7 @@ Basically you have to:
 ### Maxion Offset 103
 Model path: "**/vehicle/wheel/50k_abass_maxion_offset_103/50k_abass_rwheel.pmd**"
 
-Preview: ![Maxion Offset 103](/preview)
+Preview: ![Maxion Offset 103](/preview/maxion_offset_103.jpg)
 
 ## Credits
 Abasstrepas - original high poly model
