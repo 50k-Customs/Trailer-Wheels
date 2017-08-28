@@ -23,5 +23,5 @@ Basically you have to:
   ![Maxion Offset 103](/preview/maxion_offset_103.jpg)
 
 ## Credits
-* Abasstrepas - original high poly model
+* Abasstrepas - original textured high poly model
 * 50keda - creation of lowpoly model & new textures
